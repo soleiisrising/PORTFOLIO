@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin-top: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-title {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-menu li {
+    float: left;
+    padding-right: 32px;
+}
+
+.intro-container {
+    padding: 5%;
+}
